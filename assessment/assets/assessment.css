@@ -80,14 +80,14 @@ input:focus::placeholder {
   font-weight: bold;
   position: relative;
   font-size: 18px;
-  transition: 900ms;
+  transition: 500ms;
 }
 
 #assessment:hover {
   background: #ffffff;
   color: #cc8084;
   box-shadow: 0 1px 6px 1px rgba(32,33,36,0.3);
-  transition: 900ms;
+  transition: 500ms;
 }
 
 #assessment:active {
