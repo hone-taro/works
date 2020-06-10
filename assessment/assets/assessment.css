@@ -80,13 +80,14 @@ input:focus::placeholder {
   font-weight: bold;
   position: relative;
   font-size: 18px;
+  transition: 300ms;
 }
 
 #assessment:hover {
   background: #ffffff;
   color: #cc8084;
   box-shadow: 0 1px 6px 1px rgba(32,33,36,0.3);
-  transition: 200ms;
+  transition: 300ms;
 }
 
 #assessment:active {
@@ -131,18 +132,18 @@ input:focus::placeholder {
 }
 
 @media (max-width: 896px) {
-
+  
   .title h1 {
     font-size: 86px;
   }
-
+  
   #result-box {
     max-width: 475px;
   }
 }
 
 @media (max-width: 480px) {
-
+  
   .title h1 {
     font-size: 64px;
   }
@@ -154,5 +155,5 @@ input:focus::placeholder {
   #result-box {
     max-width: 350px;
   }
-
+  
 }
