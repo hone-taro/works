@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cc8084;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url("./font/bananaslip.otf");
+}
+
+.title {
+  text-align: center;
+  margin: 80px 0 50px 0;
+}
+
+.title h1 {
+  font-family: 'MyFont';
+  color: white;
+  font-weight: normal;
+  font-size: 100px;
+  letter-spacing: -15px;
+  line-height: 1;
+}
+
+.input-box {
+  margin: auto;
+  max-width: 664px;
+}
+
+.input-area {
+  margin: auto;
+  max-width: 380px;
+}
+
+#user-name {
+  border: 1px solid #e2b7b9;
+  border-radius: 24px;
+  font-size: 16px;
+  outline: 0;
+  padding: 13px 26px ;
+  width: 100%;
+}
+
+input {
+  color: #cc8084;
+}
+
+input::placeholder {
+  color: #cc8084;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+#user-name:hover {
+  box-shadow: 0 1px 6px 1px rgba(32,33,36,0.3);
+}
+
+.assessment-area {
+  margin: 50px 0 200px 0;
+  text-align: center;
+}
+
+#assessment {
+  border-radius: 5pt;
+  border: 1.4px solid #ffffff;
+  color:#ffffff;
+  cursor: pointer;
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  width: 135px;
+  font-weight: bold;
+  position: relative;
+  font-size: 18px;
+}
+
+#assessment:hover {
+  background: #ffffff;
+  color: #cc8084;
+  box-shadow: 0 1px 6px 1px rgba(32,33,36,0.3);
+}
+
+#assessment:active {
+  box-shadow: none;
+}
+
+#result-box {
+  max-width: 560px;
+  border: 1.4px solid #ffffff;
+  border-radius: 5px;
+  margin: auto;
+  display: none;
+}
+
+#result-area {
+  color: #ffffff;
+  margin: auto;
+}
+
+#result-area h3 {
+  padding-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#result-area p {
+  padding: 0 14px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+#tweet-area {
+  margin: auto;
+  text-align: right;
+  padding: 0 14px 20px 0;
+}
+
+#twitter-widget-0 {
+  display: inline-block;
+}
+
+@media (max-width: 896px) {
+
+  .title h1 {
+    font-size: 86px;
+  }
+
+  #result-box {
+    max-width: 475px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .title h1 {
+    font-size: 64px;
+  }
+
+  .input-area {
+    max-width: 350px;
+  }
+
+  #result-box {
+    max-width: 350px;
+  }
+
+}
