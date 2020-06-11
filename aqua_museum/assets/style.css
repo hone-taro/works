@@ -1,0 +1,279 @@
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+  background: -webkit-linear-gradient(top, #f2fcfe 45%, #046396);
+}
+
+header {
+  position: relative;
+}
+
+.headerInner {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  left: 50%;
+  padding: 15 30px;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 10px;
+  width: 95%;
+  z-index: 10;
+}
+
+.logo {
+  display: block;
+  padding: 20px;
+  width: 150px;;
+}
+
+.globalNav a {
+  color: #fff;
+  display: inline-block;
+  padding: 20px 30px 0 0;
+  text-decoration: none;
+}
+
+.globalNav a:hover {
+  text-decoration: underline;
+}
+
+.keyVisual {
+  background: url('./img/1.jpg') no-repeat center / cover;
+  height: 650px;
+  position: relative;
+  width: 100%;
+}
+
+.keyVisual img {
+  color: #dcdcdc;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+h2 {
+  color: #03045e;
+  font-size: 35px;
+  line-height: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+p {
+  color: #084a6d;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+section, article {
+  margin-top: 150px;
+}
+
+.aboutWrapper,
+.vrWrapper,
+.priceWrapper {
+  margin: auto;
+  width: 650px;
+}
+
+.bgWave{
+  background-image: url(./img/nami.svg);
+  background-repeat: repeat-x;
+  background-size: contain;
+  width: 100%;
+}
+
+.showWrapper,
+.noteWrapper {
+  margin:auto;
+  width: 800px;
+}
+
+.showFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.textBox {
+  background: #fff;
+  border-radius: 50px;
+  flex-basis: 60%;
+  padding: 0 30px 30px 30px;
+}
+
+.showWrapper img {
+  align-self: flex-end;
+  flex-basis: 40%;
+  margin-right: 20px;
+}
+
+.priceFlex {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.priceWrapper h2,
+.noteWrapper h2{
+  padding-top: 30px;
+}
+
+.priceFlex p {
+  font-size: 14px;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+.priceWrapper table,
+.priceWrapper th,
+.priceWrapper td {
+  border-collapse: collapse;
+  border: 1px solid #084a6d;
+  border-left-style: none;
+  border-top-style: none;
+  color: #084a6d;
+}
+
+.priceWrapper th,
+.priceWrapper td {
+  padding: 20px 10px;
+}
+
+.priceWrapper table {
+  width: 100%;
+}
+
+.priceWrapper th {
+  width: 150px;
+}
+
+.priceWrapper td {
+  text-align: center;
+}
+
+.priceHeader {
+  background-color: rgba(31, 39, 94, .2);
+}
+
+.age {
+  background-color: rgba(66, 109, 133, .2);
+  font-weight: normal;
+}
+
+.proviso {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.noteWrapper li {
+  color: #084a6d;
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding: 0 30px 10px 0;
+}
+
+.noteWrapper:last-child li {
+  padding-bottom: 0;
+}
+
+footer {
+  margin-top: auto;
+  position: relative;
+  background: url('./img/kaitei.svg') no-repeat center top / cover;
+  height: 400px;
+}
+
+.footerInner {
+  height: 60px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, .5);
+  width: 95%;
+  z-index: 10;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
+
+@media screen and (max-width: 896px) {
+
+  .aboutWrapper,
+  .vrWrapper,
+  .priceWrapper,
+  .showWrapper,
+  .noteWrapper {
+    margin: auto;
+    width:80%;
+  }
+
+  .showFlex {
+    flex-direction: column-reverse;
+  }
+
+  .showWrapper img {
+    margin-top: 30px;
+    margin-right: 50%;
+    width: 50%;
+  }
+
+ }
+
+
+@media screen and (max-width: 480px) {
+
+  .logo {
+    width: 25%;
+  }
+
+  .globalNav a {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .priceWrapper table {
+  font-size: 14px;
+  }
+
+  .priceWrapper th,
+  .priceWrapper td {
+    padding: 15px 10px;
+  }
+
+  .priceWrapper th {
+    width: 35%;
+  }
+
+  .junior {
+    font-size: 12px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  footer {
+    background-size: contain;
+    background-position: center bottom;
+    height: 200px;
+  }
+
+}
