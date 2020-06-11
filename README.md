@@ -9,5 +9,5 @@
 - <a href="https://hone-taro.github.io/works/aqua_museum//index.html">サイト</a>(HTML/CSS)
    - 基本的なHTML/CSSを用いた静的サイトです
  
-- WPサイト(WordPress/CSS/jQuery)
+- <a href="http://calm-yoron-1466.weblike.jp/">WPサイト</a>(WordPress/CSS/jQuery)
    - WordPressを用いたサイトです
