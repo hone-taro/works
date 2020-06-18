@@ -9,7 +9,7 @@
 - <a href="https://hone-taro.github.io/works/aqua_museum/index.html">サイト(aqua_museum)</a>(HTML/CSS)
    - 基本的なHTML/CSSを用いたサイトです
  
-- <a href="https://hone-taro.github.io/works/aqua_museum/index.html">サイト(aquarium)</a>(HTML/CSS)
+- <a href="https://hone-taro.github.io/works/aquarium/index.html">サイト(aquarium)</a>(HTML/CSS)
    - 基本的なHTML/CSS/Jqueryを用いたサイトです 
  
 - <a href="http://calm-yoron-1466.weblike.jp/">WPサイト(cafe_island)</a>(WordPress/CSS/jQuery)
