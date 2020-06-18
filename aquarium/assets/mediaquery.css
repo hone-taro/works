@@ -1,0 +1,210 @@
+ @media screen and (max-width: 1028px) {
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .l-inner {
+    padding: 0 100px;
+  }
+  
+  .l-padding {
+    padding: 0 50px;
+  }
+
+  .m-header-nav-lists {
+    display: none;
+  }
+
+  .content-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-card {
+    margin: 100px 0 0 0;
+  }
+ }
+
+@media screen and (max-width: 896px) {
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .layout-inner {
+    padding: 0 75px;
+  }
+  
+  .layout-padding {
+    padding: 0 25px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+  
+  .humberger {
+    display: block;
+  }
+
+  .m-header-nav {
+    position: relative;
+  }
+
+  .m-header-nav-lists {
+    margin: 0 0 0 auto;
+    padding-right: 100px;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .m-list-item {
+    display: block;
+    text-align: right;
+  }
+
+  .m-list-item:last-child {
+    margin-top: 50px;
+  }
+
+  .title-logo img {
+    width: 100%;
+  }
+
+  .theme-wrapper {
+    padding-right: 100px;
+  }
+
+  .event-wrapper-flex {
+    flex-direction: column;
+  }
+
+  .event-left h2 {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .research-wrapper {
+    padding-left: 100px;
+  }
+
+  .footer-lists {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .header-wrapper {
+    background-color: #002a54;
+    padding: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .layout-inner {
+    padding: 0 30px;
+    max-width: 480px;
+  }
+  
+  .layout-padding {
+    padding: 0 10px;
+  }
+
+  .layout-container {
+    padding: 40px;
+    width: 100%;
+  }
+
+  .margin-top {
+    margin-top: 30px;
+  }
+
+  .wrapper-padding {
+    padding: 40px 0;
+  }
+
+  .nav-padding {
+    padding: 20px 0;
+  }
+
+  .m-header-nav-lists {
+    background-color: #002a54;
+    padding: 30px 40px;
+  }
+
+  .title-logo {
+  top: 40%;
+  transform: translateY(-60%);
+  }
+
+  .title-logo img {
+    width: 80%;
+  }
+
+  .theme-wrapper {
+    padding-right: 0;
+  }
+
+  .content-card {
+    margin: 40px 0 0 0;
+  }
+
+  .card-image {
+    width: 125px;
+    height: 125px;
+  }
+
+  .event-list-flex {
+    padding: 20px 10px;
+  }
+
+  .event-left h2 {
+    padding-bottom: 30px;
+  }
+
+  .research-wrapper {
+    padding-left: 0;
+  }
+
+  .contact-wrapper {
+    padding: 40px;
+  }
+
+  .contact-btn {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .address-flex {
+    flex-direction: column;
+  }
+
+  .address-flex a {
+    display: none;
+  }
+
+  .location-wrapper h2 {
+    padding-left: 0;
+  }
+
+  .premises-flex {
+    flex-direction: column;
+  }
+
+  .age-card {
+    margin: 30px 0;
+  }
+
+  .age-card:last-child {
+    margin: 0;
+  }
+ }
